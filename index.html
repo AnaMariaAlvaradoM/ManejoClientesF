@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <div class="formbold-main-wrapper">
+        <div class="formbold-form-wrapper">
+            <form id="myForm" method="post">
+                <div class="formbold-input-flex">
+                    <div>
+                        <label for="nombre" class="formbold-form-label"> Nombre </label>
+                        <input
+                            type="text"
+                            name="nombre"
+                            id="nombre"
+                            placeholder="Nombre"
+                            class="formbold-form-input"
+                        />
+                    </div>
+                    <div>
+                        <label for="apellido" class="formbold-form-label"> Apellido </label>
+                        <input
+                            type="text"
+                            name="apellido"
+                            id="apellido"
+                            placeholder="Apellido"
+                            class="formbold-form-input"
+                        />
+                    </div>
+                </div>
+                <div class="formbold-input-flex">
+                    <div>
+                        <label for="email" class="formbold-form-label"> Email </label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="jhon@mail.com"
+                            class="formbold-form-input"
+                        />
+                    </div>
+                    <button id="btnCrear" class="formbold-btn">
+                        Crear cliente
+                    </button>
+                    <button id="btnActualizar" class="formbold-btn">
+                        Actualizar cliente
+                    </button>
+                    <button id="btnEliminar" class="formbold-btn">
+                        Eliminar cliente
+                    </button>
+                    <button id="btnTraerTodos" class="formbold-btn">
+                        Traer todos los clientes
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Referencia al archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
