@@ -1,4 +1,4 @@
-const baseURL = "http://localhost:8080/api/clientes";
+const baseURL = "http://localhost:9090/api/clientes";
 
 document.getElementById("btnCrear").addEventListener("click", function(event) {
     event.preventDefault();
